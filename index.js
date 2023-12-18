@@ -1,6 +1,6 @@
 const express = require("express");
 const mongoose = require("mongoose");
-mongoose.connect("mongodb+srv://sushanslondhe1357:plmqaz%40123@cluster0.scyh4zm.mongodb.net/user_app")
+mongoose.connect("your mogodb id ")
 
 const app = express();
 app.use(express.json());
